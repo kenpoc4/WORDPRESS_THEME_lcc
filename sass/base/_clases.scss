@@ -1,0 +1,24 @@
+/*----------------------------*\
+    $ALINEADOS
+/*----------------------------*/
+.flex-centrado {
+    @include flex-alineado;
+}
+.flex-column {
+    flex-direction: column;
+}
+.grid-centrado {
+    @include grid-alineado;
+}
+.texto-centrado {
+    text-align: center;
+}
+/*----------------------------*\
+    $COLORES
+/*----------------------------*/
+.c-blanco {
+    color: $c-blanco;
+}
+.c-negro {
+    color: $c-negro;
+}

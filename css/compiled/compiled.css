@@ -1,0 +1,231 @@
+/*----------------------------*\
+    $TYPOGRAFIAS
+/*----------------------------*/
+/*----------------------------*\
+    $QUERYS
+/*----------------------------*/
+/*----------------------------*\
+    $COLORES
+/*----------------------------*/
+/*----------------------------*\
+    $MEDIA QUERYS
+/*----------------------------*/
+/*----------------------------*\
+    $ALINEADOS
+/*----------------------------*/
+/*----------------------------*\
+    $CONTENEDORES
+/*----------------------------*/
+/*----------------------------*\
+    $TYPOGRAFIAS
+/*----------------------------*/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, p, .p {
+  color: #03363d;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1, .h1, h2, .h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 3.5vw;
+  margin: 1.8vw 0;
+}
+@media screen and (max-width: 1300px) {
+  h1, .h1 {
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 770px) {
+  h1, .h1 {
+    font-size: 6vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  h1, .h1 {
+    font-size: 9vw;
+  }
+}
+
+h2, .h2 {
+  font-size: 3vw;
+  margin: 1.5vw 0;
+}
+@media screen and (max-width: 1300px) {
+  h2, .h2 {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 770px) {
+  h2, .h2 {
+    font-size: 5.25vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  h2, .h2 {
+    font-size: 7.5vw;
+  }
+}
+
+h3, .h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5vw;
+  margin: 1.3vw 0;
+}
+@media screen and (max-width: 1300px) {
+  h3, .h3 {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 770px) {
+  h3, .h3 {
+    font-size: 4.25vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  h3, .h3 {
+    font-size: 6vw;
+  }
+}
+
+h4, .h4 {
+  font-family: "Montserrat", sans-serif;
+  margin: 1.2vw 0;
+}
+@media screen and (max-width: 1300px) {
+  h4, .h4 {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 770px) {
+  h4, .h4 {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  h4, .h4 {
+    font-size: 4.5vw;
+  }
+}
+
+p, .p {
+  font-size: 1.3vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+  margin: 1.2vw 0;
+}
+@media screen and (max-width: 1300px) {
+  p, .p {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 770px) {
+  p, .p {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  p, .p {
+    font-size: 3.25vw;
+  }
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #03363d;
+  font-size: 1.3vw;
+  font-weight: bold;
+  line-height: 0.8;
+  margin: 1.2vw 0;
+}
+@media screen and (max-width: 1300px) {
+  a {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 770px) {
+  a {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  a {
+    font-size: 3.25vw;
+  }
+}
+a:hover {
+  border-bottom: 1px solid #03363d;
+}
+
+span, .span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+@media screen and (max-width: 1300px) {
+  span, .span {
+    font-size: 1.3vw;
+  }
+}
+@media screen and (max-width: 770px) {
+  span, .span {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  span, .span {
+    font-size: 2.5vw;
+  }
+}
+
+/*----------------------------*\
+    $ALINEADOS
+/*----------------------------*/
+.flex-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.grid-centrado {
+  justify-self: center;
+  align-self: center;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+/*----------------------------*\
+    $COLORES
+/*----------------------------*/
+.c-blanco {
+  color: #ffffff;
+}
+
+.c-negro {
+  color: #03363d;
+}
+
+/*----------------------------*\
+    $CONTENEDORES
+/*----------------------------*/
+.contenedor-base {
+  max-width: 1350px;
+  width: 95%;
+  margin: 0px auto;
+}
+
+.contenedor-header,
+.contenedor-margenes {
+  margin-bottom: 5vw;
+}
+
+/*# sourceMappingURL=compiled.css.map */

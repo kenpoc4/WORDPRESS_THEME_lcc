@@ -1,0 +1,115 @@
+
+/*----------------------------*\
+    $TYPOGRAFIAS
+/*----------------------------*/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, p, .p {
+    color: $c-negro;
+    line-height: 1.2;
+    margin: 0;
+}
+h1, .h1, h2, .h2 {
+    font-family: $f-base
+}
+h1, .h1 {
+    font-size: 3.5vw; 
+    margin: 1.8vw 0;
+    @include mediaq-en( $q-1200) {
+        font-size: 5vw;
+    }
+    @include mediaq-en( $q-770 ) {
+        font-size: 6vw;
+    }
+    @include mediaq-en( $q-425 ) {
+        font-size: 9vw;
+    }
+}
+h2, .h2 {
+    font-size: 3vw;
+    margin: 1.5vw 0;
+    @include mediaq-en( $q-1200) {
+        font-size: 4vw;
+    }
+    @include mediaq-en( $q-770 ) {
+        font-size: 5.25vw;
+    }
+    @include mediaq-en( $q-425 ) {
+        font-size: 7.5vw;
+    }
+}
+h3, .h3 {
+    font-family: $f-base;
+    font-size: 2.5vw;
+    margin: 1.3vw 0;
+    @include mediaq-en( $q-1200) {
+        font-size: 3vw;
+    }
+    @include mediaq-en( $q-770 ) {
+        font-size: 4.25vw;
+    }
+    @include mediaq-en( $q-425 ) {
+        font-size: 6vw;
+    }
+}
+h4, .h4 {
+    font-family: $f-contenido;
+    margin: 1.2vw 0;
+    @include mediaq-en( $q-1200) {
+        font-size: 2vw;
+    }
+    @include mediaq-en( $q-770 ) {
+        font-size: 3vw;
+    }
+    @include mediaq-en( $q-425 ) {
+        font-size: 4.5vw;
+    }
+}
+p, .p {
+    font-size: 1.3vw;
+    font-family: $f-contenido;
+    font-weight: 400;
+    opacity: .8;
+    margin: 1.2vw 0;
+    @include mediaq-en( $q-1200) {
+        font-size: 1.5vw;
+    }
+    @include mediaq-en( $q-770 ) {
+        font-size: 2vw;
+    }
+    @include mediaq-en( $q-425 ) {
+        font-size: 3.25vw;
+    }
+}
+a {
+    font-family: $f-contenido;
+    color: $c-negro;
+    font-size: 1.3vw;
+    font-weight: bold;
+    line-height: .8;
+    margin: 1.2vw 0;
+    @include mediaq-en( $q-1200) {
+        font-size: 1.5vw;
+    }
+    @include mediaq-en( $q-770 ) {
+        font-size: 2vw;
+    }
+    @include mediaq-en( $q-425 ) {
+        font-size: 3.25vw;
+    }
+    &:hover {
+        border-bottom: 1px solid $c-negro;
+    }
+}
+span, .span {
+    font-family: $f-contenido;
+    font-size: 1.2vw;
+    font-weight: bold;
+    @include mediaq-en( $q-1200) {
+        font-size: 1.3vw;
+    }
+    @include mediaq-en( $q-770 ) {
+        font-size: 1.5vw;
+    }
+    @include mediaq-en( $q-425 ) {
+        font-size: 2.5vw;
+    }
+}

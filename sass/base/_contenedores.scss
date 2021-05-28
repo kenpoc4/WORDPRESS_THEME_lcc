@@ -1,0 +1,10 @@
+/*----------------------------*\
+    $CONTENEDORES
+/*----------------------------*/
+.contenedor-base {
+    @include c-base;
+}
+.contenedor-header,
+.contenedor-margenes {
+    margin-bottom: 5vw;
+}

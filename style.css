@@ -1,0 +1,21 @@
+/*   
+Theme Name: La canción continua
+Theme URI: www.lacancioncontinua.com
+Description: Tema para la página web del podcast La canción continua
+Author: Kenny Pocio
+Author URI: https://github.com/kenpoc4/
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: laCancionContinua
+*/
+/*----------------------------*\
+    $ESTANDARES INICIALES
+/*----------------------------*/
+@import "css/estandares-iniciales/normalize.css";
+@import "css/estandares-iniciales/estandares-propios.css";
+
+/*----------------------------*\
+    $ESTILOS COMPLILADOS
+/*----------------------------*/
+@import "css/compiled/compiled.css";

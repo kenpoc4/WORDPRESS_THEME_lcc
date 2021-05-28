@@ -1,0 +1,28 @@
+/*----------------------------*\
+    $MEDIA QUERYS
+/*----------------------------*/
+@mixin mediaq-en( $tamanio ) {
+    @media screen and ( max-width: $tamanio ) {
+        @content;
+    }
+}
+/*----------------------------*\
+    $ALINEADOS
+/*----------------------------*/
+@mixin flex-alineado( $jcontent: center, $aitems: center ) {
+    display: flex;
+    justify-content: $jcontent;
+    align-items: $aitems;
+}
+@mixin grid-alineado( $jcontent: center, $aitems: center ) {
+    justify-self: $jcontent;
+    align-self: $aitems;
+}
+/*----------------------------*\
+    $CONTENEDORES
+/*----------------------------*/
+@mixin c-base( $width: $q-1200 + 50px ) {
+    max-width: $width;
+    width: 95%;
+    margin: 0px auto;
+}
